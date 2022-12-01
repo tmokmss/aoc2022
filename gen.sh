@@ -12,4 +12,4 @@ fi
 touch input/$1.txt
 touch sample/$1.txt
 cp template.rb $1.rb
-sed -i "s/DAY/${1}/" $1.rb
+sed -i "" "s/DAY/${1}/" $1.rb
